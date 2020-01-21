@@ -1,5 +1,5 @@
 # vue-camera
-Run [demo](https://cloudinary-devs.github.io/index.html)  
+Run [demo](https://cloudinary-devs.github.io/vue-camera-training/index.html#/)  
 
 ## Settings
 In order to use the demo you need to create a [free Cloudinary Account](https://cloudinary.com/users/register/free) and an [unsigned upload preset](https://cloudinary.com/documentation/upload_images#upload_presets). 
@@ -37,6 +37,6 @@ npm run lint
 ```
 
 ### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+This app is configured to build into the docs directory so it can be served by github.io.  See [Configuration Reference](https://cli.vuejs.org/config/).
 
  
