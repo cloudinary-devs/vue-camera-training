@@ -1,0 +1,30 @@
+<b-navbar-nav class="ml-auto">
+  <b-nav-item>
+    <div class="settings" v-b-modal.modal-prevent-closing>
+      <i class="fas fa-info-circle"></i>
+    </div>
+
+    <b-modal
+      id="modal-prevent-closing"
+      ref="modal"
+      title="Cloudinary Upload Info"
+      @ok="handleOk"
+    >
+      <p>You need to register for a Cloudinary account to get a cloud name.</p>
+      <p>
+        Once you have an account go to settings | upload to create an unsigned
+        preset.
+      </p>
+      <p>
+        For information on creating an unsigned upload preset, look
+        <a
+          href="https://cloudinary.com/documentation/upload_images?query=settings%20upload%20preset&c_query=Upload%20presets#upload_presets"
+          target="_blank"
+          >here.</a  Be sure to choose the unsigned option when creating the upload preset.
+        >
+      </p>
+      <p>Click on the settings icon (gear) to enter your cloud name and preset. 
+          This will allow you to upload your images to cloudinary and then view them using the Gallery navigation link.</p>
+    </b-modal>
+  </b-nav-item>
+</b-navbar-nav>
