@@ -11,7 +11,7 @@ See [code](https://github.com/cloudinary-devs/training-vuejs) and [demo](https:/
 
 ### APIs used
 This is a vue.js application that uses
-* webRTC API to gather image data from a device's camer
+* webRTC API to gather image data from a device's camera
 * the Cloudinary Upload API to upload image data to Cloudinary
 * the Cloudinary Product Gallery wrapped in a Vue.js view
 
